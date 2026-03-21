@@ -1,0 +1,22 @@
+# ninja log v6
+149	3364	1774086283101068752	CMakeFiles/sherpa-onnx.dir/src/sherpa-onnx-node-addon-api.cc.o	2753da14f57f5ece
+117	4108	1774086283069068752	CMakeFiles/sherpa-onnx.dir/src/punctuation.cc.o	c53fc90b62ae56ce
+45	4818	1774086282997068752	CMakeFiles/sherpa-onnx.dir/src/non-streaming-speech-denoiser.cc.o	bbb209f2a6527347
+102	4954	1774086283053068752	CMakeFiles/sherpa-onnx.dir/src/non-streaming-tts.cc.o	fb7218afb1a3a7fc
+37	5024	1774086282993068752	CMakeFiles/sherpa-onnx.dir/src/non-streaming-speaker-diarization.cc.o	dfd5834d38f24182
+23	5354	1774086282977068752	CMakeFiles/sherpa-onnx.dir/src/keyword-spotting.cc.o	5d184108f9ae16fe
+27	5531	1774086282981068752	CMakeFiles/sherpa-onnx.dir/src/non-streaming-asr.cc.o	2297bc9b1b6a7d48
+19	5563	1774086282973068752	CMakeFiles/sherpa-onnx.dir/src/audio-tagging.cc.o	97edbd2a77742edf
+16	5659	1774086282969068752	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	a28007140ab23cf7
+18	5896	1774086282969068752	CMakeFiles/native-lib.dir/src/main/cpp/bridge.cpp.o	31c9bc29792c18a3
+5900	6359	1774086288853068749	Release/libnative-lib.so	fa9d9ddaadfec35f
+3367	8136	1774086286317068750	CMakeFiles/sherpa-onnx.dir/src/speaker-identification.cc.o	3af2be2a25f1da1
+4121	8624	1774086287113068750	CMakeFiles/sherpa-onnx.dir/src/spoken-language-identification.cc.o	43f262bc3f982b4e
+5533	8879	1774086288489068749	CMakeFiles/sherpa-onnx.dir/src/wave-writer.cc.o	9c6d21074dcfc0cb
+5041	9066	1774086288009068750	CMakeFiles/sherpa-onnx.dir/src/version.cc.o	45d73775e268aa57
+5662	9306	1774086288613068749	CMakeFiles/sherpa-onnx.dir/src/srt-writer.cc.o	408aca3ca66556f6
+5355	9360	1774086288305068750	CMakeFiles/sherpa-onnx.dir/src/wave-reader.cc.o	323dc0c42097b07f
+5565	9451	1774086288517068749	CMakeFiles/sherpa-onnx.dir/src/extract-audio-to-pcm.cc.o	36a6c5aaf40d9a93
+4960	9760	1774086287917068750	CMakeFiles/sherpa-onnx.dir/src/vad.cc.o	48ba2b3c621378eb
+4819	9833	1774086287769068750	CMakeFiles/sherpa-onnx.dir/src/streaming-asr.cc.o	1f3e78aec76985fc
+9833	11150	1774086292785068748	Release/sherpa-onnx.node	709c9371242e1d94

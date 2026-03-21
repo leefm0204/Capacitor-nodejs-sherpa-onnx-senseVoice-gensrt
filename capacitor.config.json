@@ -1,0 +1,13 @@
+{
+  "appId": "com.sensevoicegensrtnode.app",
+  "appName": "Nodejs-Sherpa-Onnx-SenseVoice-Gensrt",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "CapacitorNodeJS": {
+      "nodeDir": "nodejs"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "capacitor-nodejs",
+  "version": "1.0.0-beta.9",
+  "description": "A full-fledged Node.js runtime for Capacitor apps",
+  "type": "module",
+  "main": "dist/plugin.cjs.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "unpkg": "dist/plugin.js",
+  "files": [
+    "android/src/main/",
+    "android/libnode/",
+    "android/build.gradle",
+    "android/CMakeLists.txt",
+    "assets/",
+    "dist/",
+    "ios/Plugin/",
+    "electron/",
+    "CapacitorNodejs.podspec"
+  ],
+  "author": "Rene Hampölz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hampoelz/Capacitor-NodeJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hampoelz/Capacitor-NodeJS/issues"
+  },
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "scripts": {
+    "verify": "npm run verify:android && npm run verify:web",
+    "verify:android": "cd android && ./gradlew clean build test && cd ..",
+    "verify:web": "npm run build",
+    "docgen": "docgen --api NodeJSInterface --output-readme README.md --output-json dist/docs.json",
+    "build-bridge": "tsc --project bridge/tsconfig.json && rollup -c bridge/rollup.config.mjs && rimraf ./bridge/build",
+    "build": "npm run clean && npm run docgen && tsc && rollup -c rollup.config.mjs && npm run build-electron && npm run build-bridge",
+    "clean": "rimraf ./dist",
+    "watch": "tsc --watch",
+    "pack:bridge": "cd assets/types/bridge && npm pack --pack-destination ../ && mv ../types-bridge-*.tgz ../bridge.tgz",
+    "pack": "npm run pack:bridge && npm pack",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^8.2.0",
+    "@capacitor/cli": "^8.2.0",
+    "@capacitor/core": "^8.2.0",
+    "@capacitor/docgen": "^0.3.1",
+    "rimraf": "^6.1.3",
+    "rollup": "^4.59.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-dts": "^6.4.0",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "@capacitor/core": "^8.2.0"
+  },
+  "capacitor": {
+    "android": {
+      "src": "android"
+    }
+  }
+}

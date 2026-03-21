@@ -1,0 +1,33 @@
+{
+  "name": "com.sensevoicegensrtnode.app",
+  "version": "1.0.0",
+  "description": "SenseVoice SRT Generator with embeded Nodejs server in android phone",
+  "type": "module",
+  "main": "index.js",
+  "keywords": [
+    "capacitor",
+    "mobile",
+    "sherpa-onnx"
+  ],
+  "scripts": {
+    "buildnode": "cd node-addon-api && bash buildnode.sh && cd ~/nodejs-sherpa-onnx-senseVoice-gensrt",
+    "buildapk": "bash ~/nodejs-sherpa-onnx-senseVoice-gensrt/buildapk.sh",
+    "install": "npm i && cd static/nodejs/ && npm i && cd ~/nodejs-sherpa-onnx-senseVoice-gensrt",
+    "lint": "eslint src/js/app.js static/nodejs/server.js --fix"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.2.0",
+    "@capacitor/core": "latest",
+    "@capawesome/capacitor-file-picker": "^8.0.2",
+    "capacitor-nodejs": "file:capacitor-nodejs"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.2.0",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.3",
+    "globals": "^17.4.0",
+    "vite": "^8.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

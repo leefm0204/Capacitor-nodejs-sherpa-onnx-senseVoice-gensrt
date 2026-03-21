@@ -1,0 +1,18 @@
+{
+  "extends": "./configs/strict",
+  "compilerOptions": {
+    "lib": ["dom", "es2017"],
+    "module": "esnext",
+    "target": "es2017",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+
+    "declaration": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "outDir": "dist/esm",
+
+    "pretty": true,
+  },
+  "files": ["src/index.ts"]
+}

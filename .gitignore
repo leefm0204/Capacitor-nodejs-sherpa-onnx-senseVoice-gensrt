@@ -1,0 +1,9 @@
+node_modules/
+node-addon-api/node_modules
+android/app/build/ 
+capacitor-nodejs/android/build/
+capacitor-nodejs/android/.cxx
+static/nodejs/node_modules/
+dist/
+
+

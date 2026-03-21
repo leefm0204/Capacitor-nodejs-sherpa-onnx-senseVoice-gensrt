@@ -1,0 +1,4 @@
+/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/native-lib.dir
+/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/sherpa-onnx.dir
+/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/edit_cache.dir
+/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/rebuild_cache.dir

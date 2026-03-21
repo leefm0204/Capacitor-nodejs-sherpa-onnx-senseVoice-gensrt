@@ -1,0 +1,3082 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/uname"
+      - "/home/leefm/node_modules/.bin/uname"
+      - "/home/node_modules/.bin/uname"
+      - "/node_modules/.bin/uname"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/uname"
+      - "/home/leefm/miniforge3/bin/uname"
+      - "/home/leefm/.local/bin/uname"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 6.17.0-PRoot-Distro - aarch64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/ninja-build"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/ninja"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/samu"
+      - "/home/leefm/node_modules/.bin/ninja-build"
+      - "/home/leefm/node_modules/.bin/ninja"
+      - "/home/leefm/node_modules/.bin/samu"
+      - "/home/node_modules/.bin/ninja-build"
+      - "/home/node_modules/.bin/ninja"
+      - "/home/node_modules/.bin/samu"
+      - "/node_modules/.bin/ninja-build"
+      - "/node_modules/.bin/ninja"
+      - "/node_modules/.bin/samu"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/ninja-build"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/ninja"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/samu"
+      - "/home/leefm/miniforge3/bin/ninja-build"
+      - "/home/leefm/miniforge3/bin/ninja"
+      - "/home/leefm/miniforge3/bin/samu"
+      - "/home/leefm/.local/bin/ninja-build"
+      - "/home/leefm/.local/bin/ninja"
+      - "/home/leefm/.local/bin/samu"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/ninja-build"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/ninja"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/samu"
+      - "/usr/local/sbin/ninja-build"
+      - "/usr/local/sbin/ninja"
+      - "/usr/local/sbin/samu"
+      - "/usr/local/bin/ninja-build"
+      - "/usr/local/bin/ninja"
+      - "/usr/local/bin/samu"
+      - "/usr/sbin/ninja-build"
+      - "/usr/sbin/ninja"
+      - "/usr/sbin/samu"
+      - "/usr/bin/ninja-build"
+    found: "/usr/bin/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang"
+    candidate_directories:
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    found: "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang"
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/4.2.3/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-llvm-ar"
+      - "llvm-ar"
+      - "aarch64-linux-android30-ar"
+      - "ar"
+    candidate_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ar"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ar"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ar"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ar"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ar"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ar"
+      - "/usr/bin/aarch64-linux-android30-llvm-ar"
+      - "/sbin/aarch64-linux-android30-llvm-ar"
+      - "/bin/aarch64-linux-android30-llvm-ar"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ar"
+      - "/usr/games/aarch64-linux-android30-llvm-ar"
+      - "/system/bin/aarch64-linux-android30-llvm-ar"
+      - "/system/xbin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ar"
+    found: "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-llvm-ranlib"
+      - "llvm-ranlib"
+      - "aarch64-linux-android30-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ranlib"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/sbin/aarch64-linux-android30-llvm-ranlib"
+      - "/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/games/aarch64-linux-android30-llvm-ranlib"
+      - "/system/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/system/xbin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ranlib"
+    found: "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-llvm-strip"
+      - "llvm-strip"
+      - "aarch64-linux-android30-strip"
+      - "strip"
+    candidate_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-strip"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-strip"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-strip"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-strip"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-strip"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-strip"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-strip"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-strip"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-strip"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-strip"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-strip"
+      - "/usr/sbin/aarch64-linux-android30-llvm-strip"
+      - "/usr/bin/aarch64-linux-android30-llvm-strip"
+      - "/sbin/aarch64-linux-android30-llvm-strip"
+      - "/bin/aarch64-linux-android30-llvm-strip"
+      - "/usr/local/games/aarch64-linux-android30-llvm-strip"
+      - "/usr/games/aarch64-linux-android30-llvm-strip"
+      - "/system/bin/aarch64-linux-android30-llvm-strip"
+      - "/system/xbin/aarch64-linux-android30-llvm-strip"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-strip"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-strip"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-strip"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-strip"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-strip"
+    found: "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-ld.lld"
+      - "ld.lld"
+      - "aarch64-linux-android30-ld"
+      - "ld"
+    candidate_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-ld.lld"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-ld.lld"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-ld.lld"
+      - "/home/node_modules/.bin/aarch64-linux-android30-ld.lld"
+      - "/node_modules/.bin/aarch64-linux-android30-ld.lld"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-ld.lld"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-ld.lld"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-ld.lld"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-ld.lld"
+      - "/usr/local/sbin/aarch64-linux-android30-ld.lld"
+      - "/usr/local/bin/aarch64-linux-android30-ld.lld"
+      - "/usr/sbin/aarch64-linux-android30-ld.lld"
+      - "/usr/bin/aarch64-linux-android30-ld.lld"
+      - "/sbin/aarch64-linux-android30-ld.lld"
+      - "/bin/aarch64-linux-android30-ld.lld"
+      - "/usr/local/games/aarch64-linux-android30-ld.lld"
+      - "/usr/games/aarch64-linux-android30-ld.lld"
+      - "/system/bin/aarch64-linux-android30-ld.lld"
+      - "/system/xbin/aarch64-linux-android30-ld.lld"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-ld.lld"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-ld.lld"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-ld.lld"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-ld.lld"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-ld.lld"
+    found: "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld"
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-llvm-nm"
+      - "llvm-nm"
+      - "aarch64-linux-android30-nm"
+      - "nm"
+    candidate_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-nm"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-nm"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-nm"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-nm"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-nm"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-nm"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-nm"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-nm"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-nm"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-nm"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-nm"
+      - "/usr/sbin/aarch64-linux-android30-llvm-nm"
+      - "/usr/bin/aarch64-linux-android30-llvm-nm"
+      - "/sbin/aarch64-linux-android30-llvm-nm"
+      - "/bin/aarch64-linux-android30-llvm-nm"
+      - "/usr/local/games/aarch64-linux-android30-llvm-nm"
+      - "/usr/games/aarch64-linux-android30-llvm-nm"
+      - "/system/bin/aarch64-linux-android30-llvm-nm"
+      - "/system/xbin/aarch64-linux-android30-llvm-nm"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-nm"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-nm"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-nm"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-nm"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-nm"
+    found: "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-llvm-objdump"
+      - "llvm-objdump"
+      - "aarch64-linux-android30-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-objdump"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-objdump"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-objdump"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-objdump"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-objdump"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-objdump"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-objdump"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-objdump"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-objdump"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-objdump"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-objdump"
+      - "/usr/sbin/aarch64-linux-android30-llvm-objdump"
+      - "/usr/bin/aarch64-linux-android30-llvm-objdump"
+      - "/sbin/aarch64-linux-android30-llvm-objdump"
+      - "/bin/aarch64-linux-android30-llvm-objdump"
+      - "/usr/local/games/aarch64-linux-android30-llvm-objdump"
+      - "/usr/games/aarch64-linux-android30-llvm-objdump"
+      - "/system/bin/aarch64-linux-android30-llvm-objdump"
+      - "/system/xbin/aarch64-linux-android30-llvm-objdump"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-objdump"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-objdump"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-objdump"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-objdump"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-objdump"
+    found: "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-llvm-objcopy"
+      - "llvm-objcopy"
+      - "aarch64-linux-android30-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-objcopy"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-objcopy"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-objcopy"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-objcopy"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-objcopy"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-objcopy"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-objcopy"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-objcopy"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-objcopy"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-objcopy"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-objcopy"
+      - "/usr/sbin/aarch64-linux-android30-llvm-objcopy"
+      - "/usr/bin/aarch64-linux-android30-llvm-objcopy"
+      - "/sbin/aarch64-linux-android30-llvm-objcopy"
+      - "/bin/aarch64-linux-android30-llvm-objcopy"
+      - "/usr/local/games/aarch64-linux-android30-llvm-objcopy"
+      - "/usr/games/aarch64-linux-android30-llvm-objcopy"
+      - "/system/bin/aarch64-linux-android30-llvm-objcopy"
+      - "/system/xbin/aarch64-linux-android30-llvm-objcopy"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-objcopy"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-objcopy"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-objcopy"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-objcopy"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-objcopy"
+    found: "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-llvm-readelf"
+      - "llvm-readelf"
+      - "aarch64-linux-android30-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-readelf"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-readelf"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-readelf"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-readelf"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-readelf"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-readelf"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-readelf"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-readelf"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-readelf"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-readelf"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-readelf"
+      - "/usr/sbin/aarch64-linux-android30-llvm-readelf"
+      - "/usr/bin/aarch64-linux-android30-llvm-readelf"
+      - "/sbin/aarch64-linux-android30-llvm-readelf"
+      - "/bin/aarch64-linux-android30-llvm-readelf"
+      - "/usr/local/games/aarch64-linux-android30-llvm-readelf"
+      - "/usr/games/aarch64-linux-android30-llvm-readelf"
+      - "/system/bin/aarch64-linux-android30-llvm-readelf"
+      - "/system/xbin/aarch64-linux-android30-llvm-readelf"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-readelf"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-readelf"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-readelf"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-readelf"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-readelf"
+    found: "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-llvm-dlltool"
+      - "llvm-dlltool"
+      - "aarch64-linux-android30-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-dlltool"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-dlltool"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-dlltool"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-dlltool"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-dlltool"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-dlltool"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-dlltool"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-dlltool"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-dlltool"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-dlltool"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-dlltool"
+      - "/usr/sbin/aarch64-linux-android30-llvm-dlltool"
+      - "/usr/bin/aarch64-linux-android30-llvm-dlltool"
+      - "/sbin/aarch64-linux-android30-llvm-dlltool"
+      - "/bin/aarch64-linux-android30-llvm-dlltool"
+      - "/usr/local/games/aarch64-linux-android30-llvm-dlltool"
+      - "/usr/games/aarch64-linux-android30-llvm-dlltool"
+      - "/system/bin/aarch64-linux-android30-llvm-dlltool"
+      - "/system/xbin/aarch64-linux-android30-llvm-dlltool"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-dlltool"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-dlltool"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-dlltool"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-dlltool"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-dlltool"
+    found: "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-dlltool"
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-llvm-addr2line"
+      - "llvm-addr2line"
+      - "aarch64-linux-android30-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-addr2line"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-addr2line"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-addr2line"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-addr2line"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-addr2line"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-addr2line"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-addr2line"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-addr2line"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-addr2line"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-addr2line"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-addr2line"
+      - "/usr/sbin/aarch64-linux-android30-llvm-addr2line"
+      - "/usr/bin/aarch64-linux-android30-llvm-addr2line"
+      - "/sbin/aarch64-linux-android30-llvm-addr2line"
+      - "/bin/aarch64-linux-android30-llvm-addr2line"
+      - "/usr/local/games/aarch64-linux-android30-llvm-addr2line"
+      - "/usr/games/aarch64-linux-android30-llvm-addr2line"
+      - "/system/bin/aarch64-linux-android30-llvm-addr2line"
+      - "/system/xbin/aarch64-linux-android30-llvm-addr2line"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-addr2line"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-addr2line"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-addr2line"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-addr2line"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-addr2line"
+    found: "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-tapi"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-tapi"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-tapi"
+      - "/home/node_modules/.bin/aarch64-linux-android30-tapi"
+      - "/node_modules/.bin/aarch64-linux-android30-tapi"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-tapi"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-tapi"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-tapi"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-tapi"
+      - "/usr/local/sbin/aarch64-linux-android30-tapi"
+      - "/usr/local/bin/aarch64-linux-android30-tapi"
+      - "/usr/sbin/aarch64-linux-android30-tapi"
+      - "/usr/bin/aarch64-linux-android30-tapi"
+      - "/sbin/aarch64-linux-android30-tapi"
+      - "/bin/aarch64-linux-android30-tapi"
+      - "/usr/local/games/aarch64-linux-android30-tapi"
+      - "/usr/games/aarch64-linux-android30-tapi"
+      - "/system/bin/aarch64-linux-android30-tapi"
+      - "/system/xbin/aarch64-linux-android30-tapi"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-tapi"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-tapi"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-tapi"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-tapi"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-tapi"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/tapi"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/tapi"
+      - "/home/leefm/node_modules/.bin/tapi"
+      - "/home/node_modules/.bin/tapi"
+      - "/node_modules/.bin/tapi"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/tapi"
+      - "/home/leefm/miniforge3/bin/tapi"
+      - "/home/leefm/.local/bin/tapi"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/local/games/tapi"
+      - "/usr/games/tapi"
+      - "/system/bin/tapi"
+      - "/system/xbin/tapi"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/tapi"
+      - "/home/leefm/Android/platform-tools/tapi"
+      - "/home/leefm/Android/build-tools/35.0.0/tapi"
+      - "/home/leefm/Android/plaform-tools/tapi"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-llvm-ar-21.1"
+      - "aarch64-linux-android30-llvm-ar-21"
+      - "aarch64-linux-android30-llvm-ar21"
+      - "aarch64-linux-android30-llvm-ar"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/usr/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/sbin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ar-21.1"
+      - "/usr/games/aarch64-linux-android30-llvm-ar-21.1"
+      - "/system/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/system/xbin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ar-21"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ar-21"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ar-21"
+      - "/usr/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/sbin/aarch64-linux-android30-llvm-ar-21"
+      - "/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ar-21"
+      - "/usr/games/aarch64-linux-android30-llvm-ar-21"
+      - "/system/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/system/xbin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ar-21"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ar21"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ar21"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ar21"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ar21"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ar21"
+      - "/usr/bin/aarch64-linux-android30-llvm-ar21"
+      - "/sbin/aarch64-linux-android30-llvm-ar21"
+      - "/bin/aarch64-linux-android30-llvm-ar21"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ar21"
+      - "/usr/games/aarch64-linux-android30-llvm-ar21"
+      - "/system/bin/aarch64-linux-android30-llvm-ar21"
+      - "/system/xbin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ar21"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ar"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ar"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ar"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ar"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ar"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ar"
+      - "/usr/bin/aarch64-linux-android30-llvm-ar"
+      - "/sbin/aarch64-linux-android30-llvm-ar"
+      - "/bin/aarch64-linux-android30-llvm-ar"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ar"
+      - "/usr/games/aarch64-linux-android30-llvm-ar"
+      - "/system/bin/aarch64-linux-android30-llvm-ar"
+      - "/system/xbin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-llvm-ranlib-21.1"
+      - "aarch64-linux-android30-llvm-ranlib-21"
+      - "aarch64-linux-android30-llvm-ranlib21"
+      - "aarch64-linux-android30-llvm-ranlib"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/usr/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/sbin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/usr/games/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/system/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/system/xbin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/usr/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/sbin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ranlib-21"
+      - "/usr/games/aarch64-linux-android30-llvm-ranlib-21"
+      - "/system/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/system/xbin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ranlib21"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ranlib21"
+      - "/usr/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/sbin/aarch64-linux-android30-llvm-ranlib21"
+      - "/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ranlib21"
+      - "/usr/games/aarch64-linux-android30-llvm-ranlib21"
+      - "/system/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/system/xbin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ranlib"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/sbin/aarch64-linux-android30-llvm-ranlib"
+      - "/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/games/aarch64-linux-android30-llvm-ranlib"
+      - "/system/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/system/xbin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-clang-scan-deps-21.1"
+      - "aarch64-linux-android30-clang-scan-deps-21"
+      - "aarch64-linux-android30-clang-scan-deps21"
+      - "aarch64-linux-android30-clang-scan-deps"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/usr/local/sbin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/usr/local/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/usr/sbin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/usr/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/sbin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/usr/local/games/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/usr/games/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/system/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/system/xbin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/usr/local/sbin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/usr/local/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/usr/sbin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/usr/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/sbin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/usr/local/games/aarch64-linux-android30-clang-scan-deps-21"
+      - "/usr/games/aarch64-linux-android30-clang-scan-deps-21"
+      - "/system/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/system/xbin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/node_modules/.bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/node_modules/.bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/usr/local/sbin/aarch64-linux-android30-clang-scan-deps21"
+      - "/usr/local/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/usr/sbin/aarch64-linux-android30-clang-scan-deps21"
+      - "/usr/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/sbin/aarch64-linux-android30-clang-scan-deps21"
+      - "/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/usr/local/games/aarch64-linux-android30-clang-scan-deps21"
+      - "/usr/games/aarch64-linux-android30-clang-scan-deps21"
+      - "/system/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/system/xbin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/node_modules/.bin/aarch64-linux-android30-clang-scan-deps"
+      - "/node_modules/.bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/usr/local/sbin/aarch64-linux-android30-clang-scan-deps"
+      - "/usr/local/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/usr/sbin/aarch64-linux-android30-clang-scan-deps"
+      - "/usr/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/sbin/aarch64-linux-android30-clang-scan-deps"
+      - "/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/usr/local/games/aarch64-linux-android30-clang-scan-deps"
+      - "/usr/games/aarch64-linux-android30-clang-scan-deps"
+      - "/system/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/system/xbin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-clang-scan-deps"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang++"
+    candidate_directories:
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+    found: "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang++"
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang++ 
+      Build flags: -DBUILDING_NODE_EXTENSION
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-llvm-ar-21.1"
+      - "aarch64-linux-android30-llvm-ar-21"
+      - "aarch64-linux-android30-llvm-ar21"
+      - "aarch64-linux-android30-llvm-ar"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/usr/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/sbin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ar-21.1"
+      - "/usr/games/aarch64-linux-android30-llvm-ar-21.1"
+      - "/system/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/system/xbin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ar-21.1"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ar-21.1"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ar-21"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ar-21"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ar-21"
+      - "/usr/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/sbin/aarch64-linux-android30-llvm-ar-21"
+      - "/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ar-21"
+      - "/usr/games/aarch64-linux-android30-llvm-ar-21"
+      - "/system/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/system/xbin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ar-21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ar-21"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ar21"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ar21"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ar21"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ar21"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ar21"
+      - "/usr/bin/aarch64-linux-android30-llvm-ar21"
+      - "/sbin/aarch64-linux-android30-llvm-ar21"
+      - "/bin/aarch64-linux-android30-llvm-ar21"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ar21"
+      - "/usr/games/aarch64-linux-android30-llvm-ar21"
+      - "/system/bin/aarch64-linux-android30-llvm-ar21"
+      - "/system/xbin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ar21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ar21"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ar"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ar"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ar"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ar"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ar"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ar"
+      - "/usr/bin/aarch64-linux-android30-llvm-ar"
+      - "/sbin/aarch64-linux-android30-llvm-ar"
+      - "/bin/aarch64-linux-android30-llvm-ar"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ar"
+      - "/usr/games/aarch64-linux-android30-llvm-ar"
+      - "/system/bin/aarch64-linux-android30-llvm-ar"
+      - "/system/xbin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ar"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-llvm-ranlib-21.1"
+      - "aarch64-linux-android30-llvm-ranlib-21"
+      - "aarch64-linux-android30-llvm-ranlib21"
+      - "aarch64-linux-android30-llvm-ranlib"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/usr/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/sbin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/usr/games/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/system/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/system/xbin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21.1"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/usr/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/sbin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ranlib-21"
+      - "/usr/games/aarch64-linux-android30-llvm-ranlib-21"
+      - "/system/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/system/xbin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ranlib-21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ranlib-21"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ranlib21"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ranlib21"
+      - "/usr/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/sbin/aarch64-linux-android30-llvm-ranlib21"
+      - "/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ranlib21"
+      - "/usr/games/aarch64-linux-android30-llvm-ranlib21"
+      - "/system/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/system/xbin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ranlib21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ranlib21"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/node_modules/.bin/aarch64-linux-android30-llvm-ranlib"
+      - "/node_modules/.bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/local/sbin/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/local/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/sbin/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/sbin/aarch64-linux-android30-llvm-ranlib"
+      - "/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/local/games/aarch64-linux-android30-llvm-ranlib"
+      - "/usr/games/aarch64-linux-android30-llvm-ranlib"
+      - "/system/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/system/xbin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-llvm-ranlib"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-llvm-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-linux-android30-clang-scan-deps-21.1"
+      - "aarch64-linux-android30-clang-scan-deps-21"
+      - "aarch64-linux-android30-clang-scan-deps21"
+      - "aarch64-linux-android30-clang-scan-deps"
+    candidate_directories:
+      - "/data/data/com.termux/files/usr/bin/"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+    searched_directories:
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/usr/local/sbin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/usr/local/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/usr/sbin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/usr/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/sbin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/usr/local/games/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/usr/games/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/system/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/system/xbin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21.1"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/usr/local/sbin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/usr/local/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/usr/sbin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/usr/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/sbin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/usr/local/games/aarch64-linux-android30-clang-scan-deps-21"
+      - "/usr/games/aarch64-linux-android30-clang-scan-deps-21"
+      - "/system/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/system/xbin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-clang-scan-deps-21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-clang-scan-deps-21"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/node_modules/.bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/node_modules/.bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/usr/local/sbin/aarch64-linux-android30-clang-scan-deps21"
+      - "/usr/local/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/usr/sbin/aarch64-linux-android30-clang-scan-deps21"
+      - "/usr/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/sbin/aarch64-linux-android30-clang-scan-deps21"
+      - "/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/usr/local/games/aarch64-linux-android30-clang-scan-deps21"
+      - "/usr/games/aarch64-linux-android30-clang-scan-deps21"
+      - "/system/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/system/xbin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-clang-scan-deps21"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-clang-scan-deps21"
+      - "/data/data/com.termux/files/usr/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/node_modules/.bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/node_modules/.bin/aarch64-linux-android30-clang-scan-deps"
+      - "/node_modules/.bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/miniforge3/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/.local/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/usr/local/sbin/aarch64-linux-android30-clang-scan-deps"
+      - "/usr/local/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/usr/sbin/aarch64-linux-android30-clang-scan-deps"
+      - "/usr/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/sbin/aarch64-linux-android30-clang-scan-deps"
+      - "/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/usr/local/games/aarch64-linux-android30-clang-scan-deps"
+      - "/usr/games/aarch64-linux-android30-clang-scan-deps"
+      - "/system/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/system/xbin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/Android/platform-tools/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/Android/build-tools/35.0.0/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/Android/plaform-tools/aarch64-linux-android30-clang-scan-deps"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/aarch64-linux-android30-clang-scan-deps"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/CMakeScratch/TryCompile-jIrQR3"
+      binary: "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/CMakeScratch/TryCompile-jIrQR3"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/CMakeScratch/TryCompile-jIrQR3'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_649c1
+        [1/2] /home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang   -v -MD -MT CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        clang version 21.1.8
+        Target: aarch64-unknown-linux-android30
+        Thread model: posix
+        InstalledDir: /data/data/com.termux/files/usr/bin
+         (in-process)
+         "/data/data/com.termux/files/usr/bin/clang-21" -cc1 -triple aarch64-unknown-linux-android30 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debugger-tuning=gdb -fdebug-compilation-dir=/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/CMakeScratch/TryCompile-jIrQR3 -v -fcoverage-compilation-dir=/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/CMakeScratch/TryCompile-jIrQR3 -resource-dir /data/data/com.termux/files/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /data/data/com.termux/files/usr/bin/../.. -internal-isystem /data/data/com.termux/files/usr/lib/clang/21/include -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target aarch64-unknown-linux-android24
+        ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../usr/local/include"
+        ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /data/data/com.termux/files/usr/lib/clang/21/include
+         /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android
+         /data/data/com.termux/files/usr/bin/../../usr/include
+        End of search list.
+        [2/2] : && /home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang  -v -Wl,-v CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o -o cmTC_649c1   && :
+        clang version 21.1.8
+        Target: aarch64-unknown-linux-android30
+        Thread model: posix
+        InstalledDir: /data/data/com.termux/files/usr/bin
+         "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files/usr/bin/../.. -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu -rpath=/data/data/com.termux/files/usr/bin/../../usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_649c1 /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/bin/../../usr/lib -L/system/lib64 -v CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o
+        LLD 21.1.8 (compatible with GNU linkers)
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/data/data/com.termux/files/usr/lib/clang/21/include]
+          add: [/data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android]
+          add: [/data/data/com.termux/files/usr/bin/../../usr/include]
+        end of search list found
+        collapse include dir [/data/data/com.termux/files/usr/lib/clang/21/include] ==> [/data/data/com.termux/files/usr/lib/clang/21/include]
+        collapse include dir [/data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android] ==> [/data/data/com.termux/files/usr/include/aarch64-linux-android]
+        collapse include dir [/data/data/com.termux/files/usr/bin/../../usr/include] ==> [/data/data/com.termux/files/usr/include]
+        implicit include dirs: [/data/data/com.termux/files/usr/lib/clang/21/include;/data/data/com.termux/files/usr/include/aarch64-linux-android;/data/data/com.termux/files/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/CMakeScratch/TryCompile-jIrQR3']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_649c1]
+        ignore line: [[1/2] /home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang   -v -MD -MT CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: aarch64-unknown-linux-android30]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/data/data/com.termux/files/usr/bin/clang-21" -cc1 -triple aarch64-unknown-linux-android30 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debugger-tuning=gdb -fdebug-compilation-dir=/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/CMakeScratch/TryCompile-jIrQR3 -v -fcoverage-compilation-dir=/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/CMakeScratch/TryCompile-jIrQR3 -resource-dir /data/data/com.termux/files/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /data/data/com.termux/files/usr/bin/../.. -internal-isystem /data/data/com.termux/files/usr/lib/clang/21/include -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target aarch64-unknown-linux-android24]
+        ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /data/data/com.termux/files/usr/lib/clang/21/include]
+        ignore line: [ /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android]
+        ignore line: [ /data/data/com.termux/files/usr/bin/../../usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang  -v -Wl -v CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o -o cmTC_649c1   && :]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: aarch64-unknown-linux-android30]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
+        link line: [ "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files/usr/bin/../.. -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu -rpath=/data/data/com.termux/files/usr/bin/../../usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_649c1 /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/bin/../../usr/lib -L/system/lib64 -v CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o]
+          arg [/data/data/com.termux/files/usr/bin/ld.lld] ==> ignore
+          arg [--sysroot=/data/data/com.termux/files/usr/bin/../..] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=16384] ==> ignore
+          arg [--use-android-relr-tags] ==> ignore
+          arg [--pack-dyn-relocs=relr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-rpath=/data/data/com.termux/files/usr/bin/../../usr/lib] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_649c1] ==> ignore
+          arg [/data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o] ==> obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o]
+          arg [-L/data/data/com.termux/files/usr/bin/../../usr/lib] ==> dir [/data/data/com.termux/files/usr/bin/../../usr/lib]
+          arg [-L/system/lib64] ==> dir [/system/lib64]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_649c1.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o] ==> obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o]
+        linker tool for 'C': /data/data/com.termux/files/usr/bin/ld.lld
+        remove lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        remove lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        collapse obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o] ==> [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o]
+        collapse obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o] ==> [/data/data/com.termux/files/usr/lib/crtend_android.o]
+        collapse library dir [/data/data/com.termux/files/usr/bin/../../usr/lib] ==> [/data/data/com.termux/files/usr/lib]
+        collapse library dir [/system/lib64] ==> [/system/lib64]
+        implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o;/data/data/com.termux/files/usr/lib/crtend_android.o]
+        implicit dirs: [/data/data/com.termux/files/usr/lib;/system/lib64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "/data/data/com.termux/files/usr/bin/ld.lld" "-v"
+      LLD 21.1.8 (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/CMakeScratch/TryCompile-3GKYpY"
+      binary: "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/CMakeScratch/TryCompile-3GKYpY"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "-DBUILDING_NODE_EXTENSION"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/CMakeScratch/TryCompile-3GKYpY'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_7fee2
+        [1/2] /home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang++   -DBUILDING_NODE_EXTENSION    -v -MD -MT CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        clang version 21.1.8
+        Target: aarch64-unknown-linux-android30
+        Thread model: posix
+        InstalledDir: /data/data/com.termux/files/usr/bin
+         (in-process)
+         "/data/data/com.termux/files/usr/bin/clang-21" -cc1 -triple aarch64-unknown-linux-android30 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debugger-tuning=gdb -fdebug-compilation-dir=/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/CMakeScratch/TryCompile-3GKYpY -v -fcoverage-compilation-dir=/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/CMakeScratch/TryCompile-3GKYpY -resource-dir /data/data/com.termux/files/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D BUILDING_NODE_EXTENSION -isysroot /data/data/com.termux/files/usr/bin/../.. -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/lib/clang/21/include -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include -fdeprecated-macro -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target aarch64-unknown-linux-android24
+        ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../usr/local/include"
+        ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1
+         /data/data/com.termux/files/usr/lib/clang/21/include
+         /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android
+         /data/data/com.termux/files/usr/bin/../../usr/include
+        End of search list.
+        [2/2] : && /home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang++ -DBUILDING_NODE_EXTENSION -v -Wl,-v CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7fee2   && :
+        clang version 21.1.8
+        Target: aarch64-unknown-linux-android30
+        Thread model: posix
+        InstalledDir: /data/data/com.termux/files/usr/bin
+         "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files/usr/bin/../.. -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu -rpath=/data/data/com.termux/files/usr/bin/../../usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_7fee2 /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/bin/../../usr/lib -L/system/lib64 -v CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lm -lc /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o
+        LLD 21.1.8 (compatible with GNU linkers)
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/data/data/com.termux/files/usr/bin/../../usr/include/c++/v1]
+          add: [/data/data/com.termux/files/usr/lib/clang/21/include]
+          add: [/data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android]
+          add: [/data/data/com.termux/files/usr/bin/../../usr/include]
+        end of search list found
+        collapse include dir [/data/data/com.termux/files/usr/bin/../../usr/include/c++/v1] ==> [/data/data/com.termux/files/usr/include/c++/v1]
+        collapse include dir [/data/data/com.termux/files/usr/lib/clang/21/include] ==> [/data/data/com.termux/files/usr/lib/clang/21/include]
+        collapse include dir [/data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android] ==> [/data/data/com.termux/files/usr/include/aarch64-linux-android]
+        collapse include dir [/data/data/com.termux/files/usr/bin/../../usr/include] ==> [/data/data/com.termux/files/usr/include]
+        implicit include dirs: [/data/data/com.termux/files/usr/include/c++/v1;/data/data/com.termux/files/usr/lib/clang/21/include;/data/data/com.termux/files/usr/include/aarch64-linux-android;/data/data/com.termux/files/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/CMakeScratch/TryCompile-3GKYpY']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_7fee2]
+        ignore line: [[1/2] /home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang++   -DBUILDING_NODE_EXTENSION    -v -MD -MT CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: aarch64-unknown-linux-android30]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/data/data/com.termux/files/usr/bin/clang-21" -cc1 -triple aarch64-unknown-linux-android30 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -enable-tlsdesc -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debugger-tuning=gdb -fdebug-compilation-dir=/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/CMakeScratch/TryCompile-3GKYpY -v -fcoverage-compilation-dir=/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/CMakeFiles/CMakeScratch/TryCompile-3GKYpY -resource-dir /data/data/com.termux/files/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D BUILDING_NODE_EXTENSION -isysroot /data/data/com.termux/files/usr/bin/../.. -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/lib/clang/21/include -internal-isystem /data/data/com.termux/files/usr/bin/../../usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../include -internal-externc-isystem /data/data/com.termux/files/usr/bin/../../usr/include -fdeprecated-macro -ferror-limit 19 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target aarch64-unknown-linux-android24]
+        ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/bin/../../include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1]
+        ignore line: [ /data/data/com.termux/files/usr/lib/clang/21/include]
+        ignore line: [ /data/data/com.termux/files/usr/bin/../../usr/include/aarch64-linux-android]
+        ignore line: [ /data/data/com.termux/files/usr/bin/../../usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /home/leefm/Android/ndk/29.0.14206865/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang++ -DBUILDING_NODE_EXTENSION -v -Wl -v CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7fee2   && :]
+        ignore line: [clang version 21.1.8]
+        ignore line: [Target: aarch64-unknown-linux-android30]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
+        link line: [ "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files/usr/bin/../.. -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --use-android-relr-tags --pack-dyn-relocs=relr --hash-style=gnu -rpath=/data/data/com.termux/files/usr/bin/../../usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_7fee2 /data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/bin/../../usr/lib -L/system/lib64 -v CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lm -lc /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o]
+          arg [/data/data/com.termux/files/usr/bin/ld.lld] ==> ignore
+          arg [--sysroot=/data/data/com.termux/files/usr/bin/../..] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=16384] ==> ignore
+          arg [--use-android-relr-tags] ==> ignore
+          arg [--pack-dyn-relocs=relr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-rpath=/data/data/com.termux/files/usr/bin/../../usr/lib] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_7fee2] ==> ignore
+          arg [/data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o] ==> obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o]
+          arg [-L/data/data/com.termux/files/usr/bin/../../usr/lib] ==> dir [/data/data/com.termux/files/usr/bin/../../usr/lib]
+          arg [-L/system/lib64] ==> dir [/system/lib64]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_7fee2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++_shared] ==> lib [c++_shared]
+          arg [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lm] ==> lib [m]
+          arg [-lc] ==> lib [c]
+          arg [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o] ==> obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o]
+        linker tool for 'CXX': /data/data/com.termux/files/usr/bin/ld.lld
+        remove lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        remove lib [/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        collapse obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtbegin_dynamic.o] ==> [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o]
+        collapse obj [/data/data/com.termux/files/usr/bin/../../usr/lib/crtend_android.o] ==> [/data/data/com.termux/files/usr/lib/crtend_android.o]
+        collapse library dir [/data/data/com.termux/files/usr/bin/../../usr/lib] ==> [/data/data/com.termux/files/usr/lib]
+        collapse library dir [/system/lib64] ==> [/system/lib64]
+        implicit libs: [c++_shared;-l:libunwind.a;dl;m;c;-l:libunwind.a;dl]
+        implicit objs: [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o;/data/data/com.termux/files/usr/lib/crtend_android.o]
+        implicit dirs: [/data/data/com.termux/files/usr/lib;/system/lib64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/data/data/com.termux/files/usr/bin/ld.lld" "-v"
+      LLD 21.1.8 (compatible with GNU linkers)
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:181 (find_library)"
+    mode: "library"
+    variable: "log-lib"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "log"
+    candidate_directories:
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin/"
+      - "/home/leefm/node_modules/.bin/"
+      - "/home/node_modules/.bin/"
+      - "/node_modules/.bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "/home/leefm/miniforge3/bin/"
+      - "/home/leefm/.local/bin/"
+      - "/home/leefm/.nvm/versions/node/v25.6.1/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/system/bin/"
+      - "/system/xbin/"
+      - "/home/leefm/Android/cmdline-tools/latest/bin/"
+      - "/home/leefm/Android/platform-tools/"
+      - "/home/leefm/Android/build-tools/35.0.0/"
+      - "/home/leefm/Android/plaform-tools/"
+      - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node_modules/.bin"
+        - "/home/leefm/node_modules/.bin"
+        - "/home/node_modules/.bin"
+        - "/node_modules/.bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin"
+        - "/home/leefm/miniforge3/bin"
+        - "/home/leefm/.local/bin"
+        - "/home/leefm/.nvm/versions/node/v25.6.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/system/bin"
+        - "/system/xbin"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/platform-tools"
+        - "/home/leefm/Android/cmdline-tools/latest/bin"
+        - "/home/leefm/Android/build-tools/35.0.0"
+        - "/home/leefm/Android/plaform-tools"
+        - "/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/node_modules/.bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+...

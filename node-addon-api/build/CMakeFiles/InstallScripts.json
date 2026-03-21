@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/leefm/nodejs-sherpa-onnx-senseVoice-gensrt/node-addon-api/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
