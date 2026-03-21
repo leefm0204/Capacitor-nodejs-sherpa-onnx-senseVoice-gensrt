@@ -1,4 +1,4 @@
-# Node.js Sherpa-ONNX SenseVoice SRT Generator
+# A Sherpa-ONNX SenseVoice SRT Generator Android APK that compile using Capacitorjs.
 
 A mobile-first Android application that generates **SRT subtitles** for video files using the **SenseVoice** speech-to-text model. Built with Capacitor and embedded Node.js, this app processes video files entirely on-device without requiring internet connectivity.
 
@@ -15,9 +15,7 @@ A mobile-first Android application that generates **SRT subtitles** for video fi
 - **Streaming SRT Generation**: Subtitles are written incrementally during transcription
 - **Voice Activity Detection (VAD)**: Silero VAD for accurate speech segment detection
 - **Memory Optimized**: Advanced V8 memory management for mobile devices (256MB heap limit)
-- **Modern UI**: Beautiful glassmorphism design with dark theme and nebula background
 - **Customizable Settings**: Adjustable VAD parameters, thread counts, and language options
-- **Zoom Controls**: Adjustable UI scaling (40%-120%) with keyboard shortcuts
 - **Quick Presets**: 8 optimized presets for different content types
 
 ## 🏗️ Architecture
@@ -29,85 +27,18 @@ A mobile-first Android application that generates **SRT subtitles** for video fi
 | **Frontend** | Vanilla JavaScript, CSS3 with glassmorphism design |
 | **Backend** | Embedded Node.js (via Capacitor-NodeJS) |
 | **STT Engine** | SenseVoice model via sherpa-onnx |
-| **Audio Processing** | FFmpeg-based audio extraction (statically linked) |
+| **Audio Processing** | FFmpeg audio extraction (statically linked) |
 | **Platform** | Android (Capacitor) |
-| **Native Bridge** | node-addon-api (N-API) |
+| **Native Bridge** | Capacitor-Nodejs plugin  |
 
-### Project Structure
-
-```
-nodejs-sherpa-onnx-senseVoice-gensrt/
-├── src/                          # Client-side frontend code
-│   ├── index.html               # Main HTML with UI components
-│   ├── Picture1_013446.png      # Nebula background image
-│   └── js/
-│       └── app.js               # Frontend logic & UI management
-├── static/nodejs/               # Embedded Node.js server
-│   ├── server.js                # Main transcription server (1070 lines)
-│   ├── progress_tracker.js      # Progress calculation module
-│   ├── v8_memory.js             # Memory management system
-│   ├── package.json             # Server dependencies
-│   └── sherpa-onnx-node/        # Native sherpa-onnx bindings
-│       ├── addon.js             # N-API bindings
-│       ├── srt-writer.js        # SRT file writer
-│       ├── extract-audio-to-pcm.js  # FFmpeg audio extractor
-│       └── ...                  # Other helper modules
-├── capacitor-nodejs/            # Capacitor-NodeJS bridge
-├── node-addon-api/              # Native build environment
-│   ├── CMakeLists.txt          # CMake build configuration
-│   ├── buildnode.sh            # Android build script
-│   ├── src/                    # C++ source files
-│   ├── sherpa-onnx-c-api-onnxruntime/  # Prebuilt sherpa-onnx
-│   ├── FFmpeg/                 # Prebuilt FFmpeg static libs
-│   └── libnode/                # Prebuilt libnode.so
-├── android/                     # Native Android project
-├── dist/                        # Built frontend assets
-├── package.json                 # Root project config
-├── vite.config.ts              # Vite build configuration
-├── capacitor.config.json       # Capacitor configuration
-└── README.md                   # This file
-```
 
 ## 🔧 How It Works
 
-### Processing Pipeline
-
-```
-┌─────────────────┐
-│  Video File     │  MP4, MKV, TS, WebM, etc.
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  Audio Extract  │  FFmpeg → 16kHz mono PCM
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  VAD Processing │  Silero VAD detects speech segments
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  Recognition    │  SenseVoice model transcribes speech
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  SRT Writer     │  Streaming subtitle generation
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  SRT File       │  Saved alongside original video
-└─────────────────┘
-```
-
 ### 1. **File Selection**
-Users select video files through the Capacitor File Picker. The app supports both absolute file paths and content:// URIs.
+Users select video files in from default videos folder through the @capawesome/capacitor-file-picker. The absolute filepath from combination of filename from pickedfile result and the default video folder, we can acess direct access phone external storage.
 
 ### 2. **Audio Extraction**
-The Node.js server uses statically-linked FFmpeg libraries to extract audio from video files and converts it to **16kHz mono PCM** format required by sherpa-onnx.
+instead of using FFmpeg-Kit that run on client side, The Node.js server (Capacitor-Nodejs) uses statically-linked FFmpeg libraries to extract audio from video files and converts it to **16kHz mono PCM** format required by sherpa-onnx.
 
 ### 3. **Voice Activity Detection**
 Silero VAD processes the audio stream to detect speech segments, filtering out silence and non-speech sounds. Configurable parameters control sensitivity.
@@ -119,35 +50,27 @@ The SenseVoice model transcribes detected speech segments into text with inverse
 A streaming SRT writer incrementally writes subtitle segments, merging adjacent segments for better readability.
 
 ### 6. **Progress Tracking**
-Real-time progress updates are sent to the frontend, showing elapsed time, remaining time, processing speed (EMA-smoothed), and segment count.
-
-## 🚀 Getting Started
+Real-time progress updates are sent to the frontend, showing elapsed time, remaining time, processing speed (EMA-smoothed), and segm 🚀 Getting Started
 
 ### Prerequisites
-
-- **Node.js** 18+ installed
-- **Android Studio** with SDK
-- **Android device or emulator** (API 24+, ARM64-v8a)
+In order not to increase apk size, pls place the model file in, example
 - **Models** placed in `/sdcard/models/senseVoice/`:
   - `model.onnx` - SenseVoice STT model
   - `tokens.txt` - Model vocabulary
   - `silero_vad.onnx` - Voice activity detection model
 
+Atually most of the model have the similar recognizer and vad config. so you may use other model too like nemoCtc, paraformer etc.
+
 ### Model Download
 
 Download the required SenseVoice model from the official release:
 
-**Model:** [sherpa-onnx-sense-voice-funasr-nano-2025-12-17](https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-sense-voice-funasr-nano-2025-12-17.tar.bz2)
+**Model Download:** 
+both model also able to run but the int8 are more mobile friendly. remember to rename it to model.onnx or u may change model name in the server.js , app.js to model.int8.onnx.
+1.[sherpa-onnx-sense-voice-funasr-nano-int8-2025-12-17](https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-sense-voice-funasr-nano-int8-2025-12-17.tar.bz2)
 
-```bash
-# Download and extract
-cd /sdcard/models
-mkdir -p senseVoice
-cd senseVoice
-wget https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-sense-voice-funasr-nano-2025-12-17.tar.bz2
-tar -xjf sherpa-onnx-sense-voice-funasr-nano-2025-12-17.tar.bz2
-# Copy required files: model.onnx, tokens.txt
-```
+2. [sherpa-onnx-sense-voice-funasr-nano-2025-12-17](https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-sense-voice-funasr-nano-2025-12-17.tar.bz2)
+
 
 ### Installation
 
@@ -159,58 +82,23 @@ tar -xjf sherpa-onnx-sense-voice-funasr-nano-2025-12-17.tar.bz2
 
 2. **Install dependencies**
    ```bash
-   npm install
+   npm run install
    ```
    This will also install dependencies in `static/nodejs/` automatically.
 
 3. **Build the frontend**
    ```bash
-   npm run build
+   npm run buildnode 
    ```
+after setup the capacitor related, run this command build and compile all the required library and sherpa-onnx.node. "cd node-addon-api && bash buildnode.sh && cd ~/nodejs-sherpa-onnx-senseVoice-gensrt",
 
 4. **Sync with Android**
    ```bash
-   npx cap sync android
+   npm run buildapk
    ```
+this will build the apk. ("bash ~/nodejs-sherpa-onnx-senseVoice-gensrt/buildapk.sh") 
 
-5. **Open in Android Studio**
-   ```bash
-   npx cap open android
-   ```
 
-6. **Build and run**
-   - Open Android Studio
-   - Build the project
-   - Run on your device
-
-### Build Commands
-
-```bash
-# Build frontend only
-npm run build
-
-# Build and sync for Android
-npm run build:android
-
-# Lint code
-npm run lint
-```
-
-### Building Native Modules
-
-To rebuild the native sherpa-onnx Node.js module for Android:
-
-```bash
-cd node-addon-api
-chmod +x buildnode.sh
-./buildnode.sh
-```
-
-**Requirements:**
-- Android NDK 29+
-- CMake 3.18+
-- Prebuilt sherpa-onnx C-API with ONNX Runtime
-- Prebuilt FFmpeg static libraries for ARM64
 
 ## ⚙️ Configuration
 
@@ -267,76 +155,17 @@ The **Quick Presets** dropdown provides instant access to optimized settings for
 | ↓ Min Silence | ↑ Better sentence boundaries | ↓ Slower | ↑ Increases |
 | ↑ Threads | No change | ↑↑ Much faster | No change |
 
-### Common Issues & Solutions
 
-| Problem | Solution |
-|---------|----------|
-| Missing quiet dialogue | Lower VAD Threshold (0.3-0.4) or decrease Min Speech Duration |
-| Too many short segments | Increase Min Silence Duration (0.7-1.0s) or raise VAD Threshold |
-| Subtitles combine multiple sentences | Decrease Min Silence Duration (0.3-0.4s) |
-| Background noise triggering detection | Increase VAD Threshold (0.6-0.7) and Min Speech Duration |
-| Processing is slow | Increase thread counts (VAD: 2-4, Recognition: 4-6) |
-| Heavy accent not recognized | Manually set Language instead of Auto Detect |
-
-## 📱 Usage
-
-### Transcribing Videos
-
-1. **Open the app** on your Android device
-2. **Tap "Pick Videos"** to select video files
-3. **Review the file list** - files are staged for processing
-4. **(Optional) Adjust settings** in the Settings tab
-5. **Tap "Process Files"** to start transcription
-6. **Monitor progress** - real-time updates show speed and ETA
-7. **SRT files generated** - saved alongside original videos
-
-Example output:
-```srt
-1
-00:00:01,230 --> 00:00:04,560
-Hello, this is a subtitle example
-
-2
-00:00:05,120 --> 00:00:08,890
-Multiple segments are merged for readability
-```
 
 ### Settings Tab
 
 Access the Settings tab to customize:
-- Video folder path (default: `/sdcard/Movies`)
+- Video folder path (default: `/sdcard/Movies`) or u may input ur desire folder path as long as start with 'sdcard'.
 - VAD sensitivity parameters
 - Processing thread counts
 - Recognition language preference
 - Quick preset selection
 
-### Zoom Controls
-
-Adjust UI scaling using:
-- **Slider**: Settings tab zoom slider (40%-120%)
-- **Keyboard**: `Ctrl/Cmd + +` (zoom in), `Ctrl/Cmd + -` (zoom out), `Ctrl/Cmd + 0` (reset)
-- **Touch**: Pinch-to-zoom gesture support
-
-## 🎨 UI Design
-
-### Design Tokens
-
-- **Colors**: Deep purple/indigo gradient palette with glassmorphism
-- **Typography**: Outfit (display), JetBrains Mono (code/numbers)
-- **Effects**: Backdrop blur, radial gradients, shimmer animations
-- **Animations**: Smooth transitions, pulse effects, slide-in animations
-
-### Responsive Layout
-
-- Optimized for mobile and tablet screens
-- Safe area insets for notch devices
-- Landscape mode support
-- Touch-friendly controls (48px minimum touch targets)
-- High contrast text for readability
-
-## 🔍 Technical Details
-
-### Server Components
 
 #### `server.js` (1070 lines)
 Main transcription server handling:
@@ -415,32 +244,10 @@ UI structure with:
 ### Native Components
 
 #### C++ Source Files (`node-addon-api/src/`)
-- `sherpa-onnx-node-addon-api.cc` - Main N-API entry point
-- `vad.cc` - Voice activity detection wrapper
-- `non-streaming-asr.cc` - Offline recognizer wrapper
+- `sherpa-onnx-node-addon-api.cc` - Main N-API entry point originally from sherpa-onnx-node
 - `extract-audio-to-pcm.cc` - FFmpeg audio extraction
 - `srt-writer.cc` - SRT file writer
-- `audio-tagging.cc`, `keyword-spotting.cc`, etc. - Additional features
 
-#### Build System
-- **CMake** 3.18+ for cross-platform builds
-- **node-addon-api** for N-API bindings
-- **ARM64 optimizations**: NEON SIMD, link-time optimization
-- **Statically linked**: FFmpeg (avcodec, avformat, avutil, swresample, swscale)
-- **Dynamically linked**: sherpa-onnx, ONNX Runtime, libnode
-
-### SRT Format
-
-Output SRT files follow standard format:
-```srt
-1
-00:00:01,230 --> 00:00:04,560
-Hello, this is a subtitle example
-
-2
-00:00:05,120 --> 00:00:08,890
-Multiple segments are merged for readability
-```
 
 ### Buffer Management
 
@@ -528,50 +335,6 @@ The app uses statically-linked FFmpeg for audio extraction, supporting:
 - **Audio**: M4A, WAV, MP3, AAC (any FFmpeg-supported format)
 - **Containers**: MPEG-TS, Matroska, ISO-BMFF, RIFF
 
-### Limitations
-
-- **Platform**: Android only (ARM64-v8a)
-- **Model**: SenseVoice nano model (optimized for mobile)
-- **Languages**: Auto-detection or manual (zh/en/ja/ko/yue)
-- **Sample Rate**: Fixed at 16kHz (model requirement)
-- **Timeout**: 10 minutes per file (configurable in `app.js`)
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**"EROFS: read-only file system"**
-- Ensure video files are on writable storage (`/sdcard/`)
-- Check file paths are absolute
-- Verify app has storage permissions
-
-**"Transcription timeout"**
-- Large files may exceed 10-minute default
-- Check memory pressure in logs
-- Reduce thread count if device overheats
-- Increase timeout in `app.js` if needed
-
-**"No speech detected"**
-- Lower VAD threshold in settings (try 0.3-0.4)
-- Check audio quality of source file
-- Verify model files are present and correct
-- Increase Min Speech Duration
-
-**High memory usage**
-- Check V8 memory logs (`[V8 Memory]`)
-- Reduce buffer size if needed
-- Close other background apps
-- Enable aggressive GC mode manually
-
-**"Module not found: sherpa-onnx-node"**
-- Rebuild native modules: `cd node-addon-api && ./buildnode.sh`
-- Ensure prebuilt libraries are in correct locations
-- Check Android ABI compatibility (arm64-v8a only)
-
-**Audio extraction fails**
-- Verify video file is not corrupted
-- Check FFmpeg logs in Node.js console
-- Try converting file to MP4 first
 
 ## 📄 License
 
@@ -614,13 +377,6 @@ This project builds upon excellent open-source projects:
 - **[FFmpeg](https://ffmpeg.org/)** - Multimedia processing libraries
 - **[node-addon-api](https://github.com/nodejs/node-addon-api)** - N-API bindings for Node.js
 
-## 📞 Support
-
-For issues, questions, or contributions:
-1. Check existing documentation in this README
-2. Review troubleshooting section
-3. Inspect logs via Android Logcat
-4. Enable debug logging in settings
 
 ---
 
