@@ -1,6 +1,6 @@
 # A Sherpa-ONNX SenseVoice SRT Generator Android APK that compile using Capacitorjs.
 
-A mobile-first Android application that generates **SRT subtitles** for video files using the **SenseVoice** speech-to-text model. Built with Capacitor and embedded Node.js, this app processes video files entirely on-device without requiring internet connectivity.
+ mobile-first Android application that generates **SRT subtitles** for video files using the **SenseVoice** speech-to-text model. Built with Capacitor and embedded Node.js, this app processes video files entirely on-device without requiring internet connectivity.
 
 ![Platform](https://img.shields.io/badge/platform-Android-green)
 ![Node.js](https://img.shields.io/badge/node.js-embedded-green)
@@ -18,24 +18,11 @@ A mobile-first Android application that generates **SRT subtitles** for video fi
 - **Customizable Settings**: Adjustable VAD parameters, thread counts, and language options
 - **Quick Presets**: 8 optimized presets for different content types
 
-## 🏗️ Architecture
-
-### Tech Stack
-
-| Layer | Technology |
-|-------|------------|
-| **Frontend** | Vanilla JavaScript, CSS3 with glassmorphism design |
-| **Backend** | Embedded Node.js (via Capacitor-NodeJS) |
-| **STT Engine** | SenseVoice model via sherpa-onnx |
-| **Audio Processing** | FFmpeg audio extraction (statically linked) |
-| **Platform** | Android (Capacitor) |
-| **Native Bridge** | Capacitor-Nodejs plugin  |
-
 
 ## 🔧 How It Works
 
 ### 1. **File Selection**
-Users select video files in from default videos folder through the @capawesome/capacitor-file-picker. The absolute filepath from combination of filename from pickedfile result and the default video folder, we can acess direct access phone external storage.
+User select video files from default videos folder through the @capawesome/capacitor-file-picker. The absolute filepath from combination of filename from pickedfile result and the default video folder, we can directly access phone external storage.
 
 ### 2. **Audio Extraction**
 instead of using FFmpeg-Kit that run on client side, The Node.js server (Capacitor-Nodejs) uses statically-linked FFmpeg libraries to extract audio from video files and converts it to **16kHz mono PCM** format required by sherpa-onnx.
@@ -167,160 +154,13 @@ Access the Settings tab to customize:
 - Quick preset selection
 
 
-#### `server.js` (1070 lines)
-Main transcription server handling:
-- File processing pipeline with streaming support
-- VAD and recognizer initialization
-- Circular buffer management (30s buffer, 5s chunks)
-- Streaming SRT generation
-- Progress tracking with EMA speed calculation
-- Memory management integration
-- Configuration updates (hot-reloadable)
-- Stop/resume functionality
-
-**Key Features:**
-- Lazy module loading for heavy dependencies
-- Subarray-based zero-copy buffer operations
-- Emergency overflow handling
-- File diagnostics and logging
-- Multi-format support via FFmpeg streaming
-
-#### `progress_tracker.js`
-Progress calculation module:
-- Elapsed time tracking
-- EMA-smoothed speed calculation (α=0.25)
-- ETA estimation
-- Throttled updates (2s interval, 100ms minimum)
-- Segment count tracking
-
-#### `v8_memory.js`
-Advanced memory management:
-- Heap monitoring (70% threshold)
-- External memory tracking (75% threshold)
-- RSS monitoring (300MB threshold)
-- Automatic GC triggering
-- Memory pressure detection
-- Aggressive GC mode under critical pressure
-- Periodic memory trend analysis
-
-**Configuration:**
-```javascript
-{
-  initialHeapSize: 64,      // MB
-  maxHeapSize: 256,         // MB (mobile-optimized)
-  heapUsageThreshold: 0.7,  // 70%
-  externalMemoryThreshold: 0.75,
-  rssThreshold: 200,        // MB
-  checkInterval: 3000,      // 3 seconds
-  aggressiveGCInterval: 1500 // 1.5 seconds
-}
-```
-
-### Frontend Components
-
-#### `app.js` (1326 lines)
-Frontend application logic:
-- File picker integration (Capacitor File Picker)
-- UI state management with DOM caching
-- Progress visualization with requestAnimationFrame
-- Settings management with localStorage persistence
-- Zoom controls with keyboard shortcuts
-- Toast notifications
-- Tab navigation
-- Preset management
-- Progress tracking (UI-side EMA for robustness)
-
-#### `index.html` (1465 lines)
-UI structure with:
-- Glassmorphism design with backdrop blur
-- Responsive grid layouts
-- Tab-based navigation (Transcribe/Settings)
-- Settings form with validation
-- File list with progress bars and badges
-- Toast notification container
-- Help box with detailed configuration guide
-- Zoom slider and preset selector
-
-### Native Components
-
-#### C++ Source Files (`node-addon-api/src/`)
-- `sherpa-onnx-node-addon-api.cc` - Main N-API entry point originally from sherpa-onnx-node
-- `extract-audio-to-pcm.cc` - FFmpeg audio extraction
-- `srt-writer.cc` - SRT file writer
-
-
-### Buffer Management
-
-The app uses a circular buffer for streaming audio processing:
-- **Buffer Size**: 30 seconds (480,000 samples at 16kHz)
-- **Chunk Size**: 5 seconds (80,000 samples)
-- **Overflow Threshold**: 80% (dynamic, reduces to 40% under memory pressure)
-- **Emergency Processing**: Automatic when buffer full
-- **VAD Window**: 512 samples (32ms at 16kHz)
-
-## 🛠️ Development
-
-### Code Style
-
-- **Linter**: ESLint with custom config
-- **Formatter**: Biome
-- **Module System**: ES modules (frontend), CommonJS (backend)
-- **Type Safety**: JSDoc annotations in frontend code
-
-### Key Dependencies
-
-#### Frontend
-```json
-{
-  "@capacitor/core": "latest",
-  "@capacitor/android": "^8.2.0",
-  "@capawesome/capacitor-file-picker": "^8.0.2",
-  "capacitor-nodejs": "file:capacitor-nodejs"
-}
-```
-
-#### Backend
-```json
-{
-  "sherpa-onnx-node": "file:sherpa-onnx-node",
-  "hello-world-npm": "^1.1.1"
-}
-```
-
-#### Native Build
-- `node-addon-api` - N-API bindings
-- `sherpa-onnx-c-api-onnxruntime` - STT engine
-- `FFmpeg` - Audio extraction (statically linked)
-- `libnode` - Embedded Node.js runtime
-
-### Debugging
-
-1. **Frontend**: Chrome DevTools (remote debugging via `chrome://inspect`)
-2. **Backend**: Android Logcat for Node.js logs
-3. **Memory**: Built-in V8 memory monitoring logs
-4. **Performance**: Progress tracker speed metrics
-
-### Performance Optimization
-
-- **Throttled UI updates**: 10fps max for progress bars
-- **RequestAnimationFrame**: GPU-friendly DOM updates
-- **Subarray usage**: Zero-copy buffer operations
-- **Lazy module loading**: Heavy modules loaded on demand
-- **Streaming processing**: No full-file loading
-- **EMA speed tracking**: Smooth, responsive speed estimates
-- **DOM caching**: Pre-cached element references
-- **Memory pressure adaptation**: Dynamic buffer management
-
 ## 📝 Notes
 
 ### File Paths
 
 - **Videos**: Read from `/sdcard/Movies` by default (configurable)
 - **SRT Output**: Saved alongside original videos (`<video>.srt`)
-- **Models**: Must be in `/sdcard/models/senseVoice/`
-- **Cache**: `/sdcard/cache/` (auto-cleaned before processing)
-
-### Memory Considerations
+- **Models**: put the model in `/sdcard/models/senseVoice/` (configurable)
 
 - Optimized for mobile devices with limited RAM
 - Automatic garbage collection under pressure
@@ -372,10 +212,12 @@ This project builds upon excellent open-source projects:
 - **[FunASR / SenseVoice](https://github.com/FunAudioLLM/SenseVoice)** by **Alibaba Group** - High-quality ASR model (FunASR Model Open Source License 1.1)
 - **[sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx)** - ONNX runtime for speech processing by K2-FSA
 - **[Capacitor](https://capacitorjs.com/)** - Cross-platform native runtime
-- **[Capacitor-NodeJS](https://github.com/hampoelz/Capacitor-NodeJS)** - Embedded Node.js server
+- **[Capacitor-NodeJS](https://github.com/hampoelz/Capacitor-NodeJS)** - Mobile Embedded Node.js server plugin
+- **[@capawesome/capacitor-file-picker](https://github.com/capawesome-team/capacitor-plugins/tree/main/packages/file-picker)** - file picker plugin
 - **[Silero VAD](https://github.com/snakers4/silero-vad)** - Pre-trained voice activity detection
 - **[FFmpeg](https://ffmpeg.org/)** - Multimedia processing libraries
 - **[node-addon-api](https://github.com/nodejs/node-addon-api)** - N-API bindings for Node.js
+- 
 
 
 ---
