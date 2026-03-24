@@ -17,4 +17,4 @@ export STRIP=$TOOLCHAIN/bin/llvm-strip
 
 cmake-js compile --CMAKE_TOOLCHAIN_FILE="$ANDROID_NDK/build/cmake/android.toolchain.cmake" --BUILD_SHARED_LIBS="ON" --CMAKE_BUILD_TYPES="Release" --log-level verbose
 
-cp build/Release/* ~/nodejs-sherpa-onnx-senseVoice-gensrt/static/nodejs/sherpa-onnx-node
+cp build/Release/* ~/Capacitor-nodejs-sherpa-onnx-senseVoice-gensrt/static/nodejs/sherpa-onnx-node
