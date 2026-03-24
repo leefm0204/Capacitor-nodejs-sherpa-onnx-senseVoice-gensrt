@@ -10,22 +10,24 @@
     "sherpa-onnx"
   ],
   "scripts": {
-    "buildnode": "cd node-addon-api && bash buildnode.sh && cd ~/Capacitor-nodejs-sherpa-onnx-senseVoice-gensrt",
-    "buildapk": "bash ~/Capacitor-nodejs-sherpa-onnx-senseVoice-gensrt/buildapk.sh",
-    "install": "npm i && cd static/nodejs/ && npm i && cd ~/Capacitor-nodejs-sherpa-onnx-senseVoice-gensrt",
+    "husky": "npm i && cd static/nodejs && npm i && cd ../../node-addon-api && npm i",
+    "buildnode": "cd node-addon-api && bash buildnode.sh && cd ..",
+    "buildapk": "bash buildapk.sh",
     "lint": "eslint src/js/app.js static/nodejs/server.js --fix"
   },
   "dependencies": {
     "@capacitor/android": "^8.2.0",
-    "@capacitor/core": "latest",
+    "@capacitor/core": "^8.2.0",
     "@capawesome/capacitor-file-picker": "^8.0.2",
-    "capacitor-nodejs": "file:capacitor-nodejs"
+    "capacitor-nodejs": "file:capacitor-nodejs",
+    "husky": "^9.1.7"
   },
   "devDependencies": {
     "@capacitor/cli": "^8.2.0",
     "@eslint/js": "^10.0.1",
     "eslint": "^10.0.3",
     "globals": "^17.4.0",
+    "terser": "^5.36.0",
     "vite": "^8.0.0"
   },
   "author": "",
