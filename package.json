@@ -10,9 +10,9 @@
     "sherpa-onnx"
   ],
   "scripts": {
-    "buildnode": "cd node-addon-api && bash buildnode.sh && cd ~/nodejs-sherpa-onnx-senseVoice-gensrt",
-    "buildapk": "bash ~/nodejs-sherpa-onnx-senseVoice-gensrt/buildapk.sh",
-    "install": "npm i && cd static/nodejs/ && npm i && cd ~/nodejs-sherpa-onnx-senseVoice-gensrt",
+    "buildnode": "cd node-addon-api && bash buildnode.sh && cd ~/Capacitor-nodejs-sherpa-onnx-senseVoice-gensrt",
+    "buildapk": "bash ~/Capacitor-nodejs-sherpa-onnx-senseVoice-gensrt/buildapk.sh",
+    "install": "npm i && cd static/nodejs/ && npm i && cd ~/Capacitor-nodejs-sherpa-onnx-senseVoice-gensrt",
     "lint": "eslint src/js/app.js static/nodejs/server.js --fix"
   },
   "dependencies": {
